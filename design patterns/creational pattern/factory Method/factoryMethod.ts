@@ -1,6 +1,5 @@
 /**
  * 一种产品对应一个工厂
- *
  */
 abstract class Log {
     writeLog(): void{}
