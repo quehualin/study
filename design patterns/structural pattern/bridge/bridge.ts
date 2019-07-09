@@ -1,3 +1,6 @@
+/**
+ * 有两个维度发展
+ */
 abstract class Color {
     static _color: string;
 	constructor(color: string) {
@@ -42,7 +45,7 @@ class Rectangle extends Shape {
 
 function main() {
     let shape: Rectangle = new Rectangle(new Green('green'));
-    shape.draw()
+    shape.draw();
 }
 
-main()
+main();
